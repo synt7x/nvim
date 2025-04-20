@@ -6,7 +6,7 @@ vim.opt.guifont = "MonaspiceNe NF:h14"
 vim.cmd("highlight clear")
 vim.o.background = "dark"
 vim.cmd("syntax reset")
-vim.g.colors_name = "mytheme"
+vim.g.colors_name = "synt7x"
 
 -- Base colors
 local bg = "#161616"
@@ -33,7 +33,7 @@ vim.api.nvim_set_hl(0, "CursorLineNr", { fg = fg, bg = bg })
 vim.api.nvim_set_hl(0, "SignColumn", { bg = bg })
 vim.api.nvim_set_hl(0, "StatusLine", { fg = fg, bg = bg })
 vim.api.nvim_set_hl(0, "VertSplit", { fg = "#2e2e2e", bg = bg })
-vim.api.nvim_set_hl(0, "Special", { fg = blue, bg = bg })
+vim.api.nvim_set_hl(0, "Special", { fg = blue })
 
 -- Syntax
 vim.api.nvim_set_hl(0, "Comment", { fg = comment })

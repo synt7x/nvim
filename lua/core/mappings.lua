@@ -18,3 +18,21 @@ vim.opt.fillchars = { eob = " " }
 
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
+
+
+vim.diagnostic.config({
+  virtual_text = {
+    prefix = "",
+    spacing = 2,
+  },
+  signs = true,
+  underline = true,
+  update_in_insert = false,
+  severity_sort = true,
+  float = {
+    border = "rounded",
+    source = "always",
+    header = "",
+    prefix = "",
+  },
+})

@@ -36,6 +36,15 @@ require('pckr').add({
 	},
 	{ "yazeed1s/minimal.nvim" },
 	{
+    	"williamboman/mason.nvim"
+	},
+	{
+		"williamboman/mason-lspconfig.nvim"
+	},
+	{
+		"neovim/nvim-lspconfig"
+	},
+	{
 		"nvim-lualine/lualine.nvim",
 		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 	},
@@ -44,6 +53,15 @@ require('pckr').add({
 		config = function()
 			require('project_nvim').setup {}
 		end
+	},
+	{
+		'hrsh7th/nvim-cmp',
+	},
+	{
+		'hrsh7th/cmp-nvim-lsp'
+	},
+	{
+		'onsails/lspkind.nvim'
 	}
 })
 
